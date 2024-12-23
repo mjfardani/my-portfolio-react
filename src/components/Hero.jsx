@@ -1,5 +1,7 @@
 import profilePic from '../assets/mjfardaniProfile.jpg';
 import { HERO_CONTENT } from '../constants/index.js';
+import Medsos from './Medsos.jsx';
+import ResumeDownloadButton from './ResumeDownloadButton/ResumeDownloadButton.jsx';
 
 const Hero = () => {
     return (
@@ -19,7 +21,8 @@ const Hero = () => {
                         <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
                             {HERO_CONTENT}
                         </p>
-                        <a
+                        <Medsos />
+                        {/* <a
                             href="/resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -27,7 +30,8 @@ const Hero = () => {
                             className="bg-gradient-to-r from-cyan-600 to-blue-800 hover:from-blue-800 hover:to-cyan-600 rounded-full p-4 text-sm text-white mb-10 transition-all duration-300"
                         >
                             Download resume
-                        </a>
+                        </a> */}
+                        <ResumeDownloadButton />
                     </div>
                 </div>
             </div>
