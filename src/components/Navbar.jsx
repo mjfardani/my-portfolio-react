@@ -1,26 +1,26 @@
 import React from 'react'
 import logo from '../assets/raviKumarLogo.webp'
-import { FaInstagram, FaL, FaLinkedin, FaTelegram, FaTiktok } from 'react-icons/fa6'
+import { FaFacebook, FaInstagram, FaL, FaLinkedin, FaTelegram, FaTiktok } from 'react-icons/fa6'
 const Navbar = () => {
     return (
         <nav className='flex items-center justify-between py-6'>
             <div className="flex flex-shrink-0 items-center">
                 <a href="/" aria-label="Home">
-                    <img src={logo} className='mx-2' width={50} height={33} alt='Logo' />
+                    <h3 className='font-bold text-2xl text-blue-800'>MJFARDANI</h3>
                 </a>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl text-blue-800">
-                <a href="https://www.linkedin.com/in" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
+                <a href="https://id.linkedin.com/in/mjauharfardani" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
                     <FaLinkedin />
                 </a>
-                <a href="https://www.linkedin.com/in" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
+                <a href="https://www.instagram.com/mjfardani_" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
                     <FaInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
+                <a href="https://www.tiktok.com/@emjeeegraphic" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
                     <FaTiktok />
                 </a>
-                <a href="https://www.linkedin.com/in" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
-                    <FaTelegram />
+                <a href="https://m.facebook.com/muhjauharfardani" target='_blank' rel='noopener noreferrer' aria-label="Linkedin">
+                    <FaFacebook />
                 </a>
             </div>
         </nav>

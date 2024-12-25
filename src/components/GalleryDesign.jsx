@@ -2,12 +2,12 @@ import React from 'react';
 
 const GalleryDesign = () => {
     const designs = [
-        { id: 1, src: 'https://images.unsplash.com/photo-1593642532400-2682810df593', alt: 'Desain 1' },
-        { id: 2, src: 'https://images.unsplash.com/photo-1501594907351-2782f42db03a', alt: 'Desain 2' },
-        { id: 3, src: 'https://images.unsplash.com/photo-1506748686215-91b4383f9e35', alt: 'Desain 3' },
-        { id: 4, src: 'https://images.unsplash.com/photo-1603771289913-01598b9bb0b3', alt: 'Desain 4' },
-        { id: 5, src: 'https://images.unsplash.com/photo-1575936123451-4f687c3c5440', alt: 'Desain 5' },
-        { id: 6, src: 'https://images.unsplash.com/photo-1614584479927-e4a97e9a4389', alt: 'Desain 6' },
+        { id: 1, src: '/src/assets/gallery/1.png', alt: 'Desain 1' },
+        { id: 2, src: '/src/assets/gallery/2.png', alt: 'Desain 2' },
+        { id: 3, src: '/src/assets/gallery/3.png', alt: 'Desain 3' },
+        { id: 4, src: '/src/assets/gallery/4.png', alt: 'Desain 4' },
+        { id: 5, src: '/src/assets/gallery/5.png', alt: 'Desain 5' },
+        { id: 6, src: '/src/assets/gallery/6.png', alt: 'Desain 6' },
     ];
 
     return (
@@ -15,19 +15,17 @@ const GalleryDesign = () => {
             <div className="pb-4 text-center">
                 <h2 className="text-4xl font-bold text-gray-800 mb-10">Gallery Design</h2>
             </div>
-            <div className="flex justify-center flex-wrap gap-6">
-                {designs.map((design) => (
-                    <div
-                        key={design.id}
-                        className="relative w-full max-w-xs overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-                    >
+            <div className="p-5 md:p-10">
+                <div className="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
+                    {designs.map((design) => (
                         <img
+                            key={design.id}
                             src={design.src}
                             alt={design.alt}
-                            className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                            className="w-full shadow-md hover:shadow-lg transition-shadow duration-300"
                         />
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     );
