@@ -3,114 +3,82 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `a passionate web developer with a focus on creating engaging and effective graphic design solutions. In addition to my technical skills in web development, I am also proficient in using Photoshop to create visual designs that support your business identity and goals. I am excited to help you craft aesthetic and functional designs to deliver an outstanding user experience.`;
+export const HERO_CONTENT = `Saya adalah seorang pengembang web pemula yang tertarik dalam menciptakan solusi desain grafis yang menarik. Selain belajar pengembangan web, saya juga sedang mengasah keterampilan menggunakan Photoshop untuk membuat desain visual yang mendukung identitas dan tujuan bisnis. Saya bersemangat untuk membantu Anda merancang desain yang estetis dan fungsional, dengan tujuan memberikan pengalaman pengguna yang lebih baik.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Saya adalah seorang pengembang full stack yang berdedikasi dan serbaguna dengan semangat menciptakan aplikasi web yang efisien dan ramah pengguna. Dengan pengalaman profesional selama 5 tahun, saya telah bekerja dengan berbagai teknologi, termasuk React, Next.js, Node.js, MySQL, PostgreSQL, dan MongoDB. Perjalanan saya di bidang pengembangan web dimulai dari rasa penasaran yang mendalam tentang cara kerja teknologi, yang kemudian berkembang menjadi karier di mana saya terus belajar dan beradaptasi dengan tantangan baru. Saya menikmati bekerja dalam tim yang kolaboratif dan senang memecahkan masalah kompleks untuk memberikan solusi berkualitas tinggi. Di luar coding, saya suka tetap aktif, mengeksplorasi teknologi baru, dan berkontribusi pada proyek open-source.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Web Developer",
+    year: "2023 - Sekarang",
+    role: "Pengembang Web",
     company: " Freelancer",
-    description: `Developed and maintained web applications as a freelancer, specializing in JavaScript, React.js, Laravel, MySQL, and WordPress. Integrated RESTful APIs and worked with databases like MySQL. Collaborated with clients to define project scope, requirements, and deadlines, delivering high-quality web solutions.`,
-    technologies: ["Javascript", "React.js", "Laravel", "MySQL", "Wordpress"],
+    description: `Mengembangkan dan memelihara aplikasi web sebagai freelancer, dengan spesialisasi dalam JavaScript, React.js, Laravel, MySQL, dan WordPress. Mengintegrasikan API RESTful dan bekerja dengan database seperti MySQL. Bekerja sama dengan klien untuk menentukan cakupan proyek, kebutuhan, dan tenggat waktu, serta memberikan solusi web berkualitas tinggi.`,
+    technologies: [, "React.js", "Laravel", "MySQL", "Wordpress"],
   },
   {
-    year: "2022 - Present",
-    role: "Graphic Designer",
-    company: "Adobe",
-    description: `Created and designed visual content for web applications, including user interfaces, using tools like Adobe Photoshop, CorelDraw, and Canva. Collaborated with developers to ensure seamless integration of design elements into the final product. Focused on delivering visually appealing, responsive designs that enhance user experience.`,
-    technologies: ["Adobe Photoshop", "CorelDraw", "Canva",],
+    year: "2022 - Sekarang",
+    role: "Desainer Grafis",
+    company: " Freelancer",
+    description: `Membuat dan merancang konten visual untuk aplikasi web, termasuk antarmuka pengguna, menggunakan alat seperti Adobe Photoshop, CorelDraw, dan Canva. Bekerja sama dengan pengembang untuk memastikan integrasi elemen desain yang mulus ke dalam produk akhir. Fokus pada menghasilkan desain yang menarik, responsif, dan meningkatkan pengalaman pengguna.`,
+    technologies: ["Adobe Photoshop", "CorelDraw", "Canva"],
   },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Sebuah website portofolio yang menampilkan proyek, keahlian, dan informasi kontak secara profesional.",
+    technologies: ["React", "Tailwind CSS"],
     category: "Web Development",
+    repositoryUrl: "https://emjeeefardani.site"
   },
   {
-    title: "Task Management App",
+    title: "Bookshelf App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    category: "Productivity",
+      "Aplikasi untuk mengelola koleksi buku, lengkap dengan fitur pencatatan buku yang telah dibaca atau ingin dibaca.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    category: "Web Development",
+    repositoryUrl: "https://github.com/mjfardani/bookshelf-app-starter-project"
   },
   {
-    title: "Portfolio Website",
+    title: "Youtube Downloader",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    category: "Web Design",
+      "Aplikasi untuk mengunduh video dari YouTube menggunakan API, dengan antarmuka yang sederhana dan responsif.",
+    technologies: ["HTML", "CSS", "React", "Consume API"],
+    category: "Web Development",
+    repositoryUrl: "https://github.com/mjfardani/yt-downloader"
   },
   {
-    title: "Blogging Platform",
+    title: "Personal Notes",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Platform untuk mencatat dan menyimpan catatan pribadi, dilengkapi fitur sinkronisasi dan penyimpanan berbasis database.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    category: "Productivity",
-  },
-  {
-    title: "Weather App",
-    image: project2,
-    description:
-      "An application that provides real-time weather updates and forecasts for different locations.",
-    technologies: ["HTML", "CSS", "React", "API"],
     category: "Web Development",
+    repositoryUrl: "https://github.com/mjfardani/personal-notes-starter"
   },
   {
-    title: "To-Do List App",
+    title: "Landing Page Jasa Alumunium",
     image: project3,
     description:
-      "A simple app for managing daily tasks, with features like drag-and-drop and progress tracking.",
+      "Landing page sederhana untuk mempromosikan layanan pemasangan dan desain alumunium dengan tampilan yang menarik.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    category: "Productivity",
+    category: "Landing Page",
+    repositoryUrl: "https://www.tukangaluminiumsemarang.my.id/"
   },
   {
-    title: "Photography Portfolio",
+    title: "Contact App",
     image: project1,
     description:
-      "A website showcasing a collection of photographs, categorized by themes.",
-    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-    category: "Web Design",
-  },
-  {
-    title: "Recipe App",
-    image: project2,
-    description:
-      "A platform to search and save your favorite recipes with step-by-step instructions.",
-    technologies: ["HTML", "CSS", "Vue.js", "Firebase"],
-    category: "Web Design",
-  },
-  {
-    title: "Personal Blog",
-    image: project3,
-    description:
-      "A blogging platform to share personal stories and articles, with a comment section for interaction.",
-    technologies: ["HTML", "CSS", "Next.js", "MongoDB"],
-    category: "Web Design",
-  },
+      "Aplikasi untuk mengelola kontak dengan fitur pencarian dan pengelompokan data kontak.",
+    technologies: ["HTML", "CSS", "React"],
+    category: "Web Development",
+    repositoryUrl: "https://github.com/mjfardani/contacts-app"
+  }
 ];
 
 export const CONTACT = {

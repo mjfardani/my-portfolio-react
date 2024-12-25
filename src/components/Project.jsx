@@ -13,8 +13,7 @@ const Project = () => {
             <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold mb-4">My Projects</h2>
                 <p className="text-gray-600">
-                    Explore some of my work across various categories, including web
-                    development, design, and more.
+                    Jelajahi beberapa hasil kerja saya di berbagai kategori, termasuk pengembangan web, desain, dan lainnya.
                 </p>
             </div>
 
@@ -55,20 +54,22 @@ const Project = () => {
                             alt={project.title}
                             className="w-full h-48 object-cover"
                         />
-                        <div className="p-4">
-                            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                            <p className="text-gray-600 mb-4 text-sm">{project.description}</p>
-                            <div className="flex flex-wrap gap-2">
-                                {project.technologies.map((technology, index) => (
-                                    <span
-                                        key={index}
-                                        className="px-2 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded"
-                                    >
-                                        {technology}
-                                    </span>
-                                ))}
+                        <a href={project.repositoryUrl}>
+                            <div className="p-4" >
+                                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                                <p className="text-gray-600 mb-4 text-sm">{project.description}</p>
+                                <div className="flex flex-wrap gap-2">
+                                    {project.technologies.map((technology, index) => (
+                                        <span
+                                            key={index}
+                                            className="px-2 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded"
+                                        >
+                                            {technology}
+                                        </span>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 ))}
             </div>
