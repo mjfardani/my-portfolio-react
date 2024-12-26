@@ -102,3 +102,24 @@ export const designs = [
   { id: 5, src: img5, alt: 'Desain 5' },
   { id: 6, src: img6, alt: 'Desain 6' },
 ];
+
+
+export const EDUCATION = [
+  {
+    instansi: "Universitas Semarang",
+    prodi: "S1 Sistem Informasi",
+    tahun: "2022 - Sekarang",
+    alamat: "Semarang, Jawa Tengah",
+  },
+  {
+    instansi: "Madrasah Aliyah Asy-Syarifah",
+    prodi: "IPA",
+    tahun: "2019 - 2022",
+    alamat: "Demak, Jawa Tengah",
+  },
+  {
+    instansi: "Pondok Pesantren Asy-Syarifah",
+    tahun: "2016 - 2022",
+    alamat: "Demak, Jawa Tengah",
+  }
+]
