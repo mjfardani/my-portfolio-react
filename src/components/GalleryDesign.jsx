@@ -1,15 +1,7 @@
 import React from 'react';
+import { designs } from '../constants';
 
 const GalleryDesign = () => {
-    const designs = [
-        { id: 1, src: '/src/assets/gallery/1.png', alt: 'Desain 1' },
-        { id: 2, src: '/src/assets/gallery/2.png', alt: 'Desain 2' },
-        { id: 3, src: '/src/assets/gallery/3.png', alt: 'Desain 3' },
-        { id: 4, src: '/src/assets/gallery/4.png', alt: 'Desain 4' },
-        { id: 5, src: '/src/assets/gallery/5.png', alt: 'Desain 5' },
-        { id: 6, src: '/src/assets/gallery/6.png', alt: 'Desain 6' },
-    ];
-
     return (
         <div className="py-10 px-5">
             <div className="pb-4 text-center">

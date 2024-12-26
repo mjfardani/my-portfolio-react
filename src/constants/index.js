@@ -57,7 +57,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "Platform untuk mencatat dan menyimpan catatan pribadi, dilengkapi fitur sinkronisasi dan penyimpanan berbasis database.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "Express", "mySQL"],
     category: "Web Development",
     repositoryUrl: "https://github.com/mjfardani/personal-notes-starter"
   },
@@ -86,3 +86,19 @@ export const CONTACT = {
   phoneNo: "+62 8950 3870 208",
   email: "muhjauharfardani@gmail.com",
 };
+
+import img1 from '/src/assets/gallery/1.png';
+import img2 from '/src/assets/gallery/2.png';
+import img3 from '/src/assets/gallery/3.png';
+import img4 from '/src/assets/gallery/4.png';
+import img5 from '/src/assets/gallery/5.png';
+import img6 from '/src/assets/gallery/6.png';
+
+export const designs = [
+  { id: 1, src: img1, alt: 'Desain 1' },
+  { id: 2, src: img2, alt: 'Desain 2' },
+  { id: 3, src: img3, alt: 'Desain 3' },
+  { id: 4, src: img4, alt: 'Desain 4' },
+  { id: 5, src: img5, alt: 'Desain 5' },
+  { id: 6, src: img6, alt: 'Desain 6' },
+];
