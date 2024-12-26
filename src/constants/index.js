@@ -123,3 +123,49 @@ export const EDUCATION = [
     alamat: "Demak, Jawa Tengah",
   }
 ]
+
+export const CERTIFICATION = [
+  {
+    provider: "Google",
+    title: "Technical Support Fundamentals",
+    credentialID: "NCMWV2KCU0R7",
+    link: "https://www.coursera.org/account/accomplishments/certificate/NCMWV2KCU0R7",
+    description: "Sertifikat ini menunjukkan pemahaman dasar tentang dukungan teknis. Memahami cara menangani masalah teknis terkait perangkat keras dan perangkat lunak. Dengan menyelesaikan kursus ini, peserta mempelajari keterampilan dasar yang diperlukan untuk menangani permintaan dukungan teknis dengan efektif."
+  },
+  {
+    provider: "Dicoding Indonesia",
+    title: "Basic Programming Javascript",
+    credentialID: "2VX34R79VZYQ",
+    link: "https://www.dicoding.com/certificates/2VX34R79VZYQ",
+    description: "Sertifikat ini diberikan setelah menyelesaikan kursus dasar pemrograman menggunakan JavaScript. Kursus ini mencakup konsep-konsep dasar pemrograman, seperti variabel, tipe data, pengendalian alur, dan pengolahan data menggunakan JavaScript yang esensial untuk pengembangan web."
+  },
+  {
+    provider: "Dicoding Indonesia",
+    title: "Learn to Build Web Applications with React",
+    credentialID: "98XW57Q7JPM3",
+    link: "https://www.dicoding.com/certificates/98XW57Q7JPM3",
+    description: "Sertifikat ini diberikan setelah menyelesaikan kursus React, yang mengajarkan cara membangun aplikasi web menggunakan React. Kursus ini mencakup konsep-konsep seperti state, props, komponen, dan pengelolaan data dalam aplikasi web menggunakan React."
+  },
+  {
+    provider: "Dicoding Indonesia",
+    title: "Basic Web Programming",
+    credentialID: "2VX34R79VZYQ",
+    link: "https://www.dicoding.com/certificates/2VX34R79VZYQ",
+    description: "Sertifikat ini diberikan setelah menyelesaikan kursus pemrograman web dasar. Kursus ini mencakup penggunaan HTML, CSS, dan JavaScript untuk membuat aplikasi web statis yang sederhana, serta memperkenalkan peserta pada struktur dan desain web."
+  },
+  {
+    provider: "Dicoding Indonesia",
+    title: "Front-end Web Development for Beginners",
+    credentialID: "JMZV4O3YJXN9",
+    link: "https://www.dicoding.com/certificates/JMZV4O3YJXN9",
+    description: "Sertifikat ini menunjukkan kemampuan dalam pengembangan front-end web untuk pemula. Kursus ini mengajarkan dasar-dasar pembuatan website dengan menggunakan HTML, CSS, dan JavaScript, serta penerapan desain responsif untuk tampilan website yang optimal di berbagai perangkat."
+  },
+  {
+    provider: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    title: "Video Editing Kompetensi Multimedia",
+    credentialID: "59112 2166 0018569 2022",
+    link: "https://drive.google.com/file/d/1W3JuQYkmitZKl7FPvW05X3ZFizJJ3hgD/view?usp=sharing",
+    description: "Sertifikat ini diberikan oleh BNSP yang menunjukkan kemampuan dalam pengeditan video. Sertifikat ini mencakup pemahaman mendalam mengenai teknik pengeditan multimedia, serta penggunaan perangkat lunak pengeditan video untuk menciptakan konten yang profesional."
+  }
+];
+

@@ -23,6 +23,7 @@ const App = () => {
         <GalleryDesign />
         <Experience />
         <Education />
+
         <Contact />
       </div>
     </div>
